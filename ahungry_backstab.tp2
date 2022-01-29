@@ -13,3 +13,8 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.cre$~ ~override~
     // Or we can remove the effect
     LPF DELETE_CRE_EFFECT INT_VAR opcode_to_delete=292 END
 BUT_ONLY_IF_IT_CHANGES
+
+// Add a reference incase I want to remove it from .itm files as well
+// COPY_EXISTING_REGEXP GLOB ~^.+\.itm~ ~override~
+//   LPF DELETE_ITEM_EFFECT INT_VAR opcode_to_delete=292 END
+// BUT_ONLY_IF_IT_CHANGES
