@@ -1,5 +1,9 @@
 # Ahungry Backstab
 
+NOTE: Use https://github.com/ahungry/ahungry_tweaks
+
+It includes this component, as well as other various adjustments.
+
 BG:EE/BG2:EE/EET mod - Removes all backstab immunity from creatures in
 game (exception: Barbarian kitted).
 
